@@ -10,7 +10,7 @@ Install the dependencies:
 
 ## Project structure
 
-The project is simple, it has the folders as support files:
+The project is simple, it has these folders as support files:
 
 - `./config`: Has the Cucumber custom World class and cucumber.js more specific configuration. 
 - `./payloads`: Has any response or request body schema, examples or factories.
