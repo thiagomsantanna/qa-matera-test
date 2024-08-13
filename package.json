@@ -1,7 +1,7 @@
 {
   "name": "matera",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "cucumber.js",
   "type": "commonjs",
   "scripts": {
     "build": "tsc && cucumber-js --dry-run",
