@@ -1,0 +1,8 @@
+{
+  "cucumberautocomplete.syncfeatures": "src/exercises/exercise-2.feature",
+  "cucumberautocomplete.steps": "src/step-definitions/*.steps.ts",
+  "cucumberautocomplete.smartSnippets": true,
+  "cucumberautocomplete.stepsInvariants": true,
+  "cucumberautocomplete.strictGherkinCompletion": false,
+  "cSpell.words": ["catfact", "catfacts"]
+}

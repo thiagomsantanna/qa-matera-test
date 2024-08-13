@@ -1,0 +1,35 @@
+{
+  "name": "matera",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc && cucumber-js --dry-run",
+    "test": "cucumber-js",
+    "test:debug": "cucumber-js -p debug",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagomsantanna/qa-test-matera.git"
+  },
+  "author": "thiagomsantanna",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "10.8.0",
+    "chai": "4.3.7",
+    "cucumber-html-reporter": "7.1.1",
+    "supertest": "7.0.0",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "@types/chai": "4.3.17",
+    "@types/node": "22.2.0",
+    "@types/supertest": "6.0.2",
+    "prettier": "3.3.3",
+    "ts-node": "10.9.2",
+    "tsconfig-paths": "4.2.0",
+    "typescript": "5.5.4"
+  }
+}
